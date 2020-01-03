@@ -1,0 +1,125 @@
+body {
+	background: url(img/web-dev-image-2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+/* Location of the image */
+  
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center 100% -25px;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+    
+
+.test {
+	padding-bottom: 50px;
+}
+
+#wrapper {
+	background-image: url(img/Logo-Main-Page.png);
+	background-size: cover;
+	background-position: center;
+	font-family: font-family: 'Lato', sans-serif;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+nav {
+	height: 45px;
+	width: 100%;
+	background-color: rgb(1,1,1);
+	position: sticky;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+}
+
+#logo {
+	padding-bottom: 10px;
+}
+
+#stretch {
+	background-color: rgba(0,0,0,1);
+	height: 500px;
+}
+
+#bottom {
+	height: 70px;
+	background-color: black/
+}
+
+.hero {
+	background-color: rgba(1,1,1,0.6);
+	height: 350px;
+	width: 550px;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 75px;
+}
+
+#soon {
+	font-family: 'Raleway', sans-serif;
+	color: #87C23F;
+	font-size: 1.5em;
+}
+
+.btn-info {
+	background-color: #4267B2;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.i {
+	font-size: 10px;
+	padding-right: 3px;
+}
+
+.fb-button {
+	height: 35px;
+	width: 250px;
+	background-color: #4267B2;
+	font-weight: bold;
+	border: 1px solid #161261;
+	border-radius: 5px;
+	color: white;
+
+}
+
+.fb-button:active {
+	outline: none;
+	border: none;
+}
+
+.fb-button:visited {
+	outline: none;
+	border: none;
+}
+
+
+
+.name {
+	font-family: 'Raleway' sans-serif;
+}
